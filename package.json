@@ -1,0 +1,16 @@
+{
+  "name": "kanbanagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "KANBANAgent.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node ./dist/KANBANAgent.js"
+  },
+  "author": "Jupiter Bakakeu",
+  "license": "ISC",
+  "dependencies": {
+    "@mindconnect/mindconnect-nodejs": "^3.3.0",
+    "async": "^2.6.2"
+  }
+}
