@@ -95,29 +95,7 @@ var mindconnect_nodejs_1 = require("@mindconnect/mindconnect-nodejs");
                                     performance_1 = (Math.random() * 20) + 80;
                                     quality = (Math.random() * 20) + 80;
                                     values = [
-                                        { "dataPointId": "1552793270832", "qualityCode": "0", "value": ProducerNames[index % 5].toString() },
-                                        { "dataPointId": "1552793320173", "qualityCode": "0", "value": MachineNames[index % 5].toString() },
-                                        { "dataPointId": "1552793343515", "qualityCode": "0", "value": ArticleNames[index % 5].toString() },
-                                        { "dataPointId": "1552793357762", "qualityCode": "0", "value": ProAlphas[index % 5].toString() },
-                                        { "dataPointId": "1552793371838", "qualityCode": "0", "value": Auftrags[index % 5].toString() },
-                                        { "dataPointId": "1552793402152", "qualityCode": "0", "value": Bestands[index % 5].toString() },
-                                        { "dataPointId": "1552793428353", "qualityCode": "0", "value": Farbes[index % 5].toString() },
-                                        { "dataPointId": "1552793445076", "qualityCode": "0", "value": Kavitaets[index % 5].toString() },
-                                        { "dataPointId": "1552793459833", "qualityCode": "0", "value": Materials[index % 5].toString() },
-                                        { "dataPointId": "1552793473852", "qualityCode": "0", "value": Restbestands[index % 5].toString() },
-                                        { "dataPointId": "1552793490766", "qualityCode": "0", "value": Selektions[index % 5].toString() },
-                                        { "dataPointId": "1552793506155", "qualityCode": "0", "value": Werkzeugs[index % 5].toString() },
-                                        { "dataPointId": "1552793521085", "qualityCode": "0", "value": (Math.floor((Math.random() * 100) + 400)).toString() },
-                                        { "dataPointId": "1552793532788", "qualityCode": "0", "value": (Math.floor((Math.random() * 4))).toString() },
-                                        { "dataPointId": "1552793552994", "qualityCode": "0", "value": "Lampe_" + i },
-                                        // OEE ZNT
-                                        { "dataPointId": "1552852312440", "qualityCode": "0", "value": MachineNames[index % 5].toString() },
-                                        { "dataPointId": "1552852351277", "qualityCode": "0", "value": ArticleNames[index % 5].toString() },
-                                        { "dataPointId": "1552852404325", "qualityCode": "0", "value": aviability.toString() },
-                                        { "dataPointId": "1552852439970", "qualityCode": "0", "value": performance_1.toString() },
-                                        { "dataPointId": "1552852454870", "qualityCode": "0", "value": quality.toString() },
-                                        { "dataPointId": "1552852419233", "qualityCode": "0", "value": (aviability * performance_1 * quality).toString() },
-                                        { "dataPointId": "1552852493121", "qualityCode": "0", "value": (1).toString() }
+                                        { "dataPointId": "1553122480509", "qualityCode": "0", "value": Math.floor(Math.random() * 100).toString() },
                                     ];
                                     /*
                                     const values: DataPointValue[] = [
