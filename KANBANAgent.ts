@@ -46,8 +46,8 @@ import { DataPointValue, MindConnectAgent, MindsphereStandardEvent, retry, TimeS
                 const quality  = (Math.random() * 20) + 80;
 
                 const values: DataPointValue[] = [
-                    { "dataPointId": "1553122480509", "qualityCode": "0", "value": Math.floor(Math.random() * 100).toString() },
-                    /*{ "dataPointId": "1552793320173", "qualityCode": "0", "value": MachineNames[index % 5].toString() },
+                    { "dataPointId": "1552793270832", "qualityCode": "0", "value": ProducerNames[index % 5].toString() },
+                    { "dataPointId": "1552793320173", "qualityCode": "0", "value": MachineNames[index % 5].toString() },
                     { "dataPointId": "1552793343515", "qualityCode": "0", "value": ArticleNames[index % 5].toString() },
                     { "dataPointId": "1552793357762", "qualityCode": "0", "value": ProAlphas[index % 5].toString() },
                     { "dataPointId": "1552793371838", "qualityCode": "0", "value": Auftrags[index % 5].toString() },
@@ -70,7 +70,7 @@ import { DataPointValue, MindConnectAgent, MindsphereStandardEvent, retry, TimeS
                     { "dataPointId": "1552852439970", "qualityCode": "0", "value": performance.toString() },
                     { "dataPointId": "1552852454870", "qualityCode": "0", "value": quality.toString() },
                     { "dataPointId": "1552852419233", "qualityCode": "0", "value": (aviability*performance*quality).toString() },
-                    { "dataPointId": "1552852493121", "qualityCode": "0", "value": (1).toString() }*/
+                    { "dataPointId": "1552852493121", "qualityCode": "0", "value": (1).toString() }
 
                 ];
                 /*
