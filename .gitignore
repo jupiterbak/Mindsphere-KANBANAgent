@@ -77,3 +77,4 @@ typings/
 
 # Mindsphere
 .mc/
+.vscode/
