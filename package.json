@@ -10,8 +10,8 @@
   "author": "Jupiter Bakakeu",
   "license": "ISC",
   "dependencies": {
-    "@mindconnect/mindconnect-nodejs": "^3.3.0",
-    "async": "^2.6.2"
+    "@mindconnect/mindconnect-nodejs": "^3.7.0",
+    "async": "^2.6.3"
   },
   "devDependencies": {
     "typescript": "^3.3.4000"
