@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@mindconnect/mindconnect-nodejs": "^3.7.0",
-    "async": "^2.6.3"
+    "async": "^2.6.4"
   },
   "devDependencies": {
     "typescript": "^3.3.4000"
